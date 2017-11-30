@@ -208,6 +208,18 @@
     <Compile Include="Migrations\201711272218100_PopulateGenresTable.Designer.cs">
       <DependentUpon>201711272218100_PopulateGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711301042211_FixedGenreMisspelling.cs" />
+    <Compile Include="Migrations\201711301042211_FixedGenreMisspelling.Designer.cs">
+      <DependentUpon>201711301042211_FixedGenreMisspelling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711301145548_FixedGenreMisspelling1.cs" />
+    <Compile Include="Migrations\201711301145548_FixedGenreMisspelling1.Designer.cs">
+      <DependentUpon>201711301145548_FixedGenreMisspelling1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711301146300_FixedGenreMisspelling2.cs" />
+    <Compile Include="Migrations\201711301146300_FixedGenreMisspelling2.Designer.cs">
+      <DependentUpon>201711301146300_FixedGenreMisspelling2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -304,6 +316,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711272218100_PopulateGenresTable.resx">
       <DependentUpon>201711272218100_PopulateGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711301042211_FixedGenreMisspelling.resx">
+      <DependentUpon>201711301042211_FixedGenreMisspelling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711301145548_FixedGenreMisspelling1.resx">
+      <DependentUpon>201711301145548_FixedGenreMisspelling1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711301146300_FixedGenreMisspelling2.resx">
+      <DependentUpon>201711301146300_FixedGenreMisspelling2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
