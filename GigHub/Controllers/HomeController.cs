@@ -20,6 +20,7 @@ namespace GigHub.Controllers
             //get the model
             var upcomingGigs = _context.Gigs
                 .Include(g => g.Artist)
+                .Include(g => g.Genre)
                 .Where(g => g.DateTime > DateTime.Now);
             //put the model inside the view
             return View(upcomingGigs);
