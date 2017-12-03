@@ -23,6 +23,11 @@ textarea {
     max-width: 280px;
 }
 
+span.field-validation-error {
+    color: #f00;
+    font-weight: bold;
+}
+
 /* Bootstrap Overrides */
 
 body {
@@ -32,6 +37,7 @@ body {
     color: #333333;
     background-color: #ffffff;
 }
+
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     background-color: rgba(205, 40, 39, 0.55);
