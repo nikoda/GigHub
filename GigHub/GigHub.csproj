@@ -209,19 +209,15 @@
       <DependentUpon>201711272218100_PopulateGenresTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201711301042211_FixedGenreMisspelling.cs" />
-    <Compile Include="Migrations\201711301042211_FixedGenreMisspelling.Designer.cs">
-      <DependentUpon>201711301042211_FixedGenreMisspelling.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201711301145548_FixedGenreMisspelling1.cs" />
-    <Compile Include="Migrations\201711301145548_FixedGenreMisspelling1.Designer.cs">
-      <DependentUpon>201711301145548_FixedGenreMisspelling1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\201711301146300_FixedGenreMisspelling2.cs" />
     <Compile Include="Migrations\201711301146300_FixedGenreMisspelling2.Designer.cs">
       <DependentUpon>201711301146300_FixedGenreMisspelling2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712031923387_AddNameToApplicationUser.cs" />
+    <Compile Include="Migrations\201712031923387_AddNameToApplicationUser.Designer.cs">
+      <DependentUpon>201712031923387_AddNameToApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Gig.cs" />
@@ -229,9 +225,18 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\ExternalLoginConfirmationViewModel.cs" />
+    <Compile Include="ViewModels\ExternalLoginListViewModel.cs" />
+    <Compile Include="ViewModels\ForgotPasswordViewModel.cs" />
+    <Compile Include="ViewModels\ForgotViewModel.cs" />
     <Compile Include="ViewModels\FutureDate.cs" />
     <Compile Include="ViewModels\GigFormViewModel.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\RegisterViewModel.cs" />
+    <Compile Include="ViewModels\ResetPasswordViewModel.cs" />
+    <Compile Include="ViewModels\SendCodeViewModel.cs" />
     <Compile Include="ViewModels\ValidTime.cs" />
+    <Compile Include="ViewModels\VerifyCodeViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -319,14 +324,11 @@
     <EmbeddedResource Include="Migrations\201711272218100_PopulateGenresTable.resx">
       <DependentUpon>201711272218100_PopulateGenresTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201711301042211_FixedGenreMisspelling.resx">
-      <DependentUpon>201711301042211_FixedGenreMisspelling.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201711301145548_FixedGenreMisspelling1.resx">
-      <DependentUpon>201711301145548_FixedGenreMisspelling1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711301146300_FixedGenreMisspelling2.resx">
       <DependentUpon>201711301146300_FixedGenreMisspelling2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712031923387_AddNameToApplicationUser.resx">
+      <DependentUpon>201712031923387_AddNameToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
