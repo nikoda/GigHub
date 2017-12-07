@@ -75,19 +75,19 @@ body {
 form-control:focus {
     border-color: #2196f3;
     box-shadow: none;
-    -webkit-box-shadow: none;
+
 
 }
 
 .btn {
-    /*padding: 7px 20px;
-    font-size: 17px;*/
+    -ms-border-radius: 9px;
     border-radius: 9px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .dropdown-menu {
     box-shadow: none;
-    -webkit-box-shadow: none;
 }
 
 /* Page-level styles */
